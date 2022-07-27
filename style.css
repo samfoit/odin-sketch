@@ -1,6 +1,7 @@
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -20,4 +21,13 @@ body {
 
 div .pixel:hover {
     background-color: black;
+}
+
+ nav {
+    padding-bottom: 10px;
+ }
+.button {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
 }
