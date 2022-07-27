@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: red;
+    min-height: 50em;
+    max-width: 960px;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.pixel {
+    background-color: white;
+    min-width: 60px;
+    max-height: 60px;
+}
+
+div .pixel:hover {
+    background-color: black;
+}
